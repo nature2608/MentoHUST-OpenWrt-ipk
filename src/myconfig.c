@@ -31,10 +31,10 @@ static const char *PACKAGE_BUGREPORT = "http://code.google.com/p/mentohust/issue
 #define D_TIMEOUT			8	/* 默认超时间隔 */
 #define D_ECHOINTERVAL		30	/* 默认心跳间隔 */
 #define D_RESTARTWAIT		15	/* 默认重连间隔 */
-#define D_STARTMODE			0	/* 默认组播模式 */
-#define D_DHCPMODE			0	/* 默认DHCP模式 */
+#define D_STARTMODE			1	/* 默认组播模式 */
+#define D_DHCPMODE			3	/* 默认DHCP模式 */
 #define D_DAEMONMODE		0	/* 默认daemon模式 */
-#define D_MAXFAIL			0	/* 默认允许失败次数 */
+#define D_MAXFAIL			3	/* 默认允许失败次数 */
 
 static const char *D_DHCPSCRIPT = "dhclient";	/* 默认DHCP脚本 */
 static const char *CFG_FILE = "/etc/mentohust.conf";	/* 配置文件 */
